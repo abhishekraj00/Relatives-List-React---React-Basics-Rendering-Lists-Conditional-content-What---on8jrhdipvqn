@@ -3,7 +3,7 @@ import '../styles/App.css';
 
 class App extends Component {
 
-    const relative = [1, 2, 3, 4];
+    const rel = [1, 2, 3, 4];
 
     render() {
 
