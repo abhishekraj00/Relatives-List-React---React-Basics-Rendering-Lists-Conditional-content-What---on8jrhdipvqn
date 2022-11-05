@@ -1,12 +1,26 @@
-import React, {Component, useState} from "react";
+import React, { Component, useState } from "react";
 import '../styles/App.css';
 
 class App extends Component {
+
+    const relative = [1, 2, 3, 4];
+
     render() {
 
-        return(
+        return (
             <div id="main">
-               {/* Do not remove the main div */}
+                {/* Do not remove the main div */}
+                <ol key="relativeList">
+
+                    {
+                        rel.map((e) => {
+
+                            return <li key={`relativeListItem${e}`}>{e}</li>
+
+                        })
+                    }
+
+                    <ol />
             </div>
         )
     }
